@@ -1,0 +1,11 @@
+[limits]
+max_actions_per_run = 5
+
+[features]
+preferred_authors_enabled = false
+blacklist_enabled = false
+
+[authors]
+# Use stable Stepik user IDs, not display names.
+preferred = []
+blacklist = []

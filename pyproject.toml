@@ -1,0 +1,22 @@
+[project]
+name = "my-liker"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Stimpik",email = "iderik@mail.ru"}
+]
+requires-python = "^3.13"
+dependencies = [
+    "playwright (>=1.55,<2.0)",
+]
+
+[tool.poetry]
+packages = [{ include = "my_liker", from = "src" }]
+
+[project.scripts]
+my-liker = "my_liker.cli:main"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

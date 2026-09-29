@@ -1,0 +1,6 @@
+/.stepik-profile/
+/data/
+/config.toml
+/.idea/
+__pycache__/
+*.py[cod]
